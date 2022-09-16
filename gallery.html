@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap demo</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body class="bg-dark text-light">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-dark text-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-light  px-5" href="#">TastyBites</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item px-3">
+                                <a class="nav-link text-light  active" aria-current="page" href="/index.html">Home</a>
+                            </li>
+                            <li class="nav-item px-3">
+                                <a class="nav-link text-light  active" href="/gallery.html">Gallery</a>
+                            </li>
+                            <li class="nav-item px-3">
+                                <a class="nav-link text-light  active" href="/contact.html">Contact-Us</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="container">
+            <h3>
+                Tasty
+                <small class="text-muted">Dishes</small>
+            </h3>
+
+            <div class="list">
+                <ul class="list-inline">
+                    <li class="list-inline-item">Appetizers</li>
+                    <li class="list-inline-item">Dessert</li>
+                    <li class="list-inline-item">Drinks</li>
+                    <li class="list-inline-item">Panini pasta</li>
+                    <li class="list-inline-item">Salad</li>
+                    <li class="list-inline-item">Sauces soups</li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="container text-dark">
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="/images/appitizers.jpg">
+                        <div class="card-body">
+                            <h5>Appetizers</h5>
+                            <p class="card-text">A perfect combination of sweet and sour.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group"></div>
+                                <small class="text-muted">$19.99</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col  ">
+                    <div class="card shadow-sm">
+                        <img src="/images/desserts.jpg">
+
+                        <div class="card-body">
+                            <h5>Deserts</h5>
+                            <p class="card-text">Delighted with sweetness.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group"></div>
+                                <small class="text-muted">$19.99</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="/images/drinks.jpg">
+
+                        <div class="card-body">
+                            <h5>Drinks</h5>
+                            <p class="card-text">Lime mojito. Just the refreshment you crave.</p>
+                            <p class="card-text"></p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group"></div>
+                                <small class="text-muted">$19.99</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="/images/paniniPasta.jpg">
+
+                        <div class="card-body">
+                            <h5>Pasta</h5>
+
+                            <p class="card-text">Fresh pasta and fresh ingredients always.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group"></div>
+                                <small class="text-muted">$19.99</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="/images/salad.jpg">
+
+                        <div class="card-body">
+                            <h5>Salad</h5>
+
+                            <p class="card-text">Mixed veggies salad.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group"></div>
+                                <small class="text-muted">$19.99</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="/images/soups.jpg">
+
+                        <div class="card-body">
+                            <h5>Soups</h5>
+
+                            <p class="card-text">A moment of best taste.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group"></div>
+                                <small class="text-muted">$199
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <footer class="footer bg-dark text-light text-center mt-5 py-3">
+            <div class="container">
+              <span class="text-muted">Copyright@ 2022</span>
+            </div>
+          </footer>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+    </body>
+</html>
